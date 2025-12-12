@@ -6792,13 +6792,8 @@ if($onload){
 }
 $text .= ">\n";
 $text .= "<TABLE BGCOLOR=black>\n";
-$text .= "<TR><TD WIDTH=168 background=../images/head3.gif><IMG SRC=../images/head1.gif BORDER=0 useMap=#mapHead1></A></TD>\n";
-$text .= "<TD WIDTH=678 background=../images/head4.gif ALIGN=CENTER><IMG SRC=../images/head2.gif BORDER=0 ALT=\"CisFinder: DNA motif finder\" useMap=#mapHead2></TD></TR>\n";
-$text .= "<map NAME='mapHead1'>\n";
-$text .= "<area shape=rect href=https://www.nih.gov coords=0,0,82,50>\n";
-$text .= "<area shape=rect href=https://www.irp.nia.nih.gov coords=83,0,167,50>\n";
-$text .= "<area shape=rect href=https://www.irp.nia.nih.gov coords=0,51,167,86>\n";
-$text .= "</map>\n";
+$text .= "<TR><TD WIDTH=168 background=../images/head1.jpg><IMG SRC=../images/head1.jpg BORDER=0 useMap=#mapHead1></A></TD>\n";
+$text .= "<TD WIDTH=678 background=../images/head2.gif ALIGN=CENTER><IMG SRC=../images/head2.gif BORDER=0 ALT=\"CisFinder: DNA motif finder\" useMap=#mapHead2></TD></TR>\n";
 $text .= "<map NAME='mapHead2'>\n";
 $text .= "<area shape=rect href=../index.html coords=0,0,677,80>\n";
 $text .= "</map>\n";
