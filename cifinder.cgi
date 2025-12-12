@@ -2,13 +2,13 @@
 use strict;
 
 #*******************************************************
-# Copyright @2008, The National Institute on Aging (NIA/NIH).
+# Copyright @2025, Alexei Sharov
 # All rights reserved.
 # 
-# This software is provided "AS IS".  NIA/NIH makes no warranties, express
+# This software is provided "AS IS". Alexei Sharov (AS) makes no warranties, express
 # or implied, including no representation or warranty with respect to
 # the performance of the software and derivatives or their safety,
-# effectiveness, or commercial viability.  NIA does not warrant the
+# effectiveness, or commercial viability.  AS does not warrant the
 # merchantability or fitness of the software and derivatives for any
 # particular purpose, or that they may be exploited without infringing
 # the copyrights, patent rights or property rights of others. NIA shall
@@ -20,10 +20,9 @@ use strict;
 # 
 # This software program may not be sold, leased, transferred, exported
 # or otherwise disclaimed to anyone, in whole or in part, without the
-# prior written consent of NIA.
+# prior written consent of AS.
 #
-# Programmer: Alexei Sharov (sharoval@mail.nih.gov)
-# National Institute on Aging, Genetics Lab
+# Programmer: Alexei Sharov (sharov@comcast.net)
 #*******************************************************
 
 my %hashIni;
@@ -6987,7 +6986,7 @@ print "<HTML><HEAD><TITLE>CisFinder response</TITLE>\n";
 print_header();
 print $message."\n";
 print "<p><HR NOSHADE><p>\n";
-print "<i>Please report any problems to <a href=mailto:sharoval\@mail.nih.gov>webmaster</a><p>\n";
+print "<i>Please report any problems to <a href=mailto:sharov\@comcast.net>webmaster</a><p>\n";
 if($comment eq "continue"){
 	print "<FORM ACTION=$CGI_ADDRESS/cisfinder.cgi METHOD=POST>\n";
 	print "<INPUT NAME=\"loginname\" TYPE=hidden VALUE=\"$loginname\">\n";
