@@ -7,8 +7,8 @@
 #define MAXINT 65536
 #define MAX_ITERATIONS 30
 
-//gcc kmean_motif.c -lm -o kmean_motif.exe
-//kmean_motif -i motifs.txt -o kmean_out.txt -k 10 -n 1000 -meme clusters.meme
+//gcc kmeans_motif.c -lm -o kmeans_motif.exe
+//kmeans_motif -i motifs.txt -o kmeans_out.txt -k 10 -n 1000 -meme clusters.meme
 //This version reads MEME format and outputs MEME format, uses get_distance instead of get_distance2
 
 int DEBUG=0;
