@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 #Sorts the output from the kmeans_motif.c program
-#sort_clusters.pl input.txt output.txt
+#sort_kmeans.pl input.txt output.txt
 
 use strict;
 my $usage = "$0 input output\n";
